@@ -1,0 +1,14 @@
+[
+{
+    "sensorId": "5d316ee8-a785-4e87-91d8-06f901c98a88",
+    "temperatureC": 23.4
+},
+{
+    "sensorId": "031b1393-1ff0-49cc-9945-b559617b2bfd",
+    "temperatureC": "23a"
+},
+{
+    "sensorId": "282f31de-d715-473d-ba82-5ff22b14d64e",
+    "temperatureC": 23.5
+}
+]
