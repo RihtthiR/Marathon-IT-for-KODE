@@ -1,5 +1,5 @@
 import multiprocessing
-from main import read_with_timeout
+from file_read import read_with_timeout
 import tkinter
 
 def start():
