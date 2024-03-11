@@ -24,4 +24,3 @@ if __name__ == '__main__':
     start.grid()
     stop.grid()
     root.mainloop()
-    proc.join()

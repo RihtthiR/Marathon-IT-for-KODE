@@ -1,6 +1,7 @@
 import json
 import time
 from call_function_with_timeout import SetTimeout
+from datetime import datetime
 
 def read_json_func():
     with open("List_of_data.json") as json_file:
@@ -13,7 +14,7 @@ def read_json_func():
                 sum += json_data[i]['temperatureC']
                 print(json_data[i]['temperatureC'])
             except TypeError:
-                print('Error in variable')
+                open("log.txt","a").write("[{}] Error in variable \n".format(datetime.now()))
         print('Average:',sum / len(json_data))
 
 def read_with_timeout():
